@@ -1,0 +1,36 @@
+.recipe-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  max-width: 700px;
+  margin: 25px auto;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+  border: 2px solid #f2f2f2;
+}
+
+.recipe-title {
+  margin-top: 0;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #d35400;
+}
+
+.recipe-content {
+  margin-top: 10px;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.recipe-content h3 {
+  margin-top: 18px;
+  font-size: 1.3rem;
+  color: #8e44ad;
+}
+
+.recipe-content ul {
+  margin-left: 20px;
+}
+
+.recipe-content li {
+  margin-bottom: 6px;
+}
