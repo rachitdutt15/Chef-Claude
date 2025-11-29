@@ -1,16 +1,77 @@
-# React + Vite
+👨‍🍳 Chef Claude – Recipe Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun cooking assistant where users can add ingredients and get a recipe suggestion generated automatically!
+Built with React, deployed via Vercel.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add any list of ingredients
 
-## React Compiler
+Click Get Recipe → generates a cooking recipe
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clean UI and formatted recipe card
 
-## Expanding the ESLint configuration
+No external AI API required (runs fully on serverless backend)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+
+React + Vite
+
+JavaScript
+
+Serverless API on Vercel
+
+Styled with modern CSS
+
+Markdown rendering with react-markdown
+
+📦 Setup & Installation
+
+Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/chef-claude.git
+cd chef-claude
+
+
+Install dependencies:
+
+npm install
+
+
+Start development:
+
+npm run dev
+
+🌍 Deployment
+
+This project is deployed on Vercel
+Every push to the main branch auto-deploys 🚀
+
+📂 Project Structure
+chef-claude/
+ ├─ api/recipe.js        → backend recipe generator
+ ├─ src/
+ │  ├─ components/
+ │  │  ├─ Main.jsx
+ │  │  ├─ IngredientsList.jsx
+ │  │  ├─ ClaudeRecipe.jsx
+ │  │  └─ Recipe.css
+ │  ├─ apiClient.js
+ │  ├─ App.jsx
+ │  └─ main.jsx
+ └─ public/
+
+👤 Author
+
+Rachit Dutt
+GitHub: https://github.com/YOUR_USERNAME
+
+⭐ Show Your Support
+
+If you like this project, please ⭐ the repo — it helps a lot! 😄
+
+Want me to add a project logo, live preview link, and screenshots section too?
+
+Just send:
+
+Your live app link (from Vercel)
